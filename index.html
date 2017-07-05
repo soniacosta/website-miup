@@ -26,133 +26,91 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
         
-        <!-- nav -->
-        <!-- Dropdown Structure -->
-        <ul id="dropdown1" class="dropdown-content">
-          <li><a href="#!">one</a></li>
-          <li><a href="#!">two</a></li>
-          <li class="divider"></li>
-          <li><a href="#!">three</a></li>
-        </ul>
-		  <nav>
-			<div  id="top-nav" class="nav-wrapper">
-			  <a href="#1" ><img style="border:10px; height:80%;" src="images/logo-17.png"></a>
-			  <ul id="nav-mobile" class="right hide-on-med-and-down">
-				<!--<li><a class="miupblue" href="#2">Como participar</a></li>-->
-				<li><a class="dropdown-button miupblue" href="#!" data-activates="dropdown1">Ver mais<i class="material-icons right">arrow_drop_down</i></a></li>
+       
+		  			
+		<ul id="dropdown1" class="dropdown-content miupblue-text">
+			<li><a href="./infos.html">Informações</a></li>
+			<li><a href="#!">Concurso</a></li>
+			<li class="divider"></li>
+			<li><a href="#!">Ligações Uteis</a></li>
+		</ul>
+		
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper miupblue-text ourwhite">			
+					<div class="container">
+						<a href="./index.html" class="brand-logo">
+							<img src="images/miup17.png" height="50"/>
+						</a>
 
-			  </ul>
+						<ul id="nav-mobile" class="right">
+							<li>
+								<a class="dropdown-button" href="#!" data-activates="dropdown1">
+									Mais<i class="material-icons right">arrow_drop_down</i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	
+   	<div class="container">
+   		<div class="row" style="padding-top: 30px;">
+				<div class="col l6 s12" style="padding-top: 4%;">
+					<img src="images/miup17.png" style="width:100%">
+				</div>
+				
+				<div class="col l6 s12">
+					<p>Bem-vindo ao site da Maratona Inter-Universitária de Programação (MIUP) 2017, um concurso de programação destinado a alunos universitários, organizado pelo Departamento de Informática da Universidade do Minho no dia 15 de outubro de 2017. </p>
+					<p>A MIUP é um concurso por equipas (de 3 elementos) e as linguagens de programação permitidas para resolver os problemas propostos são C, C++ e Java.</p>
+				</div>
+
+				<div class="col l12 s12">
+					<p>
+					Esta atividade serve como preparação dos alunos portugueses para o <a href="https://swerc.eu/">Southwestern European Regional Programming Contest (SWERC) 2017</a>, organizado pela faculdade <a href="https://www.telecom-paristech.fr/">Telecom ParisTech </a> e pela faculdade <a href="https://www.ens.fr/">École normale supérieure</a> e que será realizado a 25 e 26 de novembro de 2017, na faculdade <a href="https://www.telecom-paristech.fr/">Telecom ParisTech </a>. Nalguns casos, a MIUP é também usada para selecionar os alunos que irão representar cada instituição no SWERC, mas esta é uma decisão interna de cada instituição universitária. <br>
+					</p>
+				</div>
+			</div>  
+   	</div>
+   	
+		<footer class="page-footer grey">
+			<div class="container">
+				<div class="row">
+					<div class="col l4 s12">
+						<h6 class="ourwhite-text">Universidade do Minho<br>Departamento de Informática</h6>
+						<img style="height: 40px" src="images/um.gif"/>
+						<img style="height: 40px; margin-left: -4px" src="images/eeum.gif"/>
+					</div>
+					
+					<div class="col l4 s12">
+						<h6 class="ourwhite-text">Localização</h6>
+						<p> Departamento de Informática Universidade do Minho<br>Rua da Universidade, 4704-553 Braga</p>
+					</div>
+					
+					<div class="col l4 s12">
+						<h6 class="ourwhite-text">Versões Anteriores</h6>
+						<ul>
+							<li>
+								<a href="http://www.di.fct.unl.pt/miup2016">MIUP'16 </a> - 
+								<a  href="http://www.di.fct.unl.pt/sites/www.di.fct.unl.pt/files/problemsetMIUP16.pdf">Problemas propostos 2016</a>
+							</li>
+							
+							<li>
+								<a href="http://miup2015.dcc.fc.up.pt/">MIUP'15 </a> - 
+								<a class="miupblue" href="http://miup2015.dcc.fc.up.pt/miup2015_problemset.pdf">Problemas propostos 2015</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		  </nav>
-        
-        
-
-      <main class="container-fluid">
-        <section id="1">
-            <div>
-              <img src="images/logo-17.png" style="width:45%;border:10px">
-              <div style="width: 50%; float: right">
-                  <p>Bem-vindo ao site da Maratona Inter-Universitária de Programação (MIUP) 2017, um concurso de programação destinado a alunos universitários, organizado pelo Departamento de Informática da Universidade do Minho no dia 15 de outubro de 2017. </p>
-                  <p>A MIUP é um concurso por equipas (de 3 elementos) e as linguagens de programação permitidas para resolver os problemas propostos são C, C++ e Java.</p>
-              </div>
-            </div>
-            <div>
-                <p>
-                A MIUP serve como preparação dos alunos portugueses para o <a href="https://swerc.eu/">Southwestern European Regional Programming Contest (SWERC) 2017</a>, organizado pela faculdade <a href="https://www.telecom-paristech.fr/">Telecom ParisTech </a> e pela faculdade <a href="https://www.ens.fr/">École normale supérieure</a> e que será realizado a 25 e 26 de novembro de 2017, na faculdade <a href="https://www.telecom-paristech.fr/">Telecom ParisTech </a>. Nalguns casos, a MIUP é também usada para selecionar os alunos que irão representar cada instituição no SWERC, mas esta é uma decisão interna de cada instituição universitária.
-                </p>
-            </div>
-
-        </section>
-          
-        <section id="3">
-            <h4>Versões Anteriores</h4>
-            <div>
-                
-                <ul>
-                  <li><a href="http://miup2015.dcc.fc.up.pt/">MIUP'15 </a> - <a class="miupblue" href="http://www.di.fct.unl.pt/sites/www.di.fct.unl.pt/files/problemsetMIUP16.pdf">Problemas propostos 2016</a></li>
-                  <li><a href="http://www.di.fct.unl.pt/miup2016">MIUP'16 </a> - <a class="miupblue" href="http://miup2015.dcc.fc.up.pt/miup2015_problemset.pdf">Problemas propostos 2015</a></li>
-                </ul>
-                
-            </div>            
-      
-        </section>
-        <!--
-        <footer id="main_footer" class="page-footer grey darken-3" style="margin-top: 0px !important;">
-        <div class="container">
-            <div class="row">
-                <div class="col l4 s6" style="text-align:center;">
-                    <h6 class="white-text bold">Universidade do Minho<br>Departamento de Informática</h6>
-                    <img style="height: 60px" src="images/eeum.gif"><img style="height: 60px" src="images/um.gif"
-                    <ul class="list-inline">
-                        
-                        
-                    </ul>
-                </div>
-
-                <div id="outros_links" class="col l4 s6" style="text-align:center;">
-                    <div class="row">
-                        <h6 class="white-text bold"></h6>
-
-                        
-
-                    </div>
-                </div>
-
-                <div class="col l4 s12" style="text-align:center;">
-                    <div class="hide-on-large-only" style="padding-top: 15px !important; margin-top: 15px !important;"></div>
-                    <h6 class="white-text bold">Localização</h6>
-
-                    <p class="white-text"> Departamento de Informática - Universidade do Minho<br>Rua da Universidade, 4704-553 Braga</p>
-
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-copyright">
-            <div class="container">
-                Made  by  <a class="blue-text" href="https://www.facebook.com/necc.di.uminho"><img style="height: 20px" src="images/necc.png"> Necc</a>
-                <span style="font-size: 10px;"><a class="right" href="http://materializecss.com/" target="_blank">Materialize</a></span>
-            </div>
-        </div>
-        </footer>-->
-        <div class="footer darken-3"><div class="container">
-            <div class="row">
-                <div class="col l4 s6" style="text-align:center;">
-                    <h6 class="miupblue bold">Universidade do Minho<br>Departamento de Informática</h6>
-                    <img style="height: 60px" src="images/eeum.gif"><img style="height: 60px" src="images/um.gif"
-                    <ul class="list-inline">
-                        
-                        
-                    </ul>
-                </div>
-
-                <div id="outros_links" class="col l4 s6" style="text-align:center;">
-                    <div class="row">
-                        
-
-                        
-
-                    </div>
-                </div>
-
-                <div class="col l4 s12" style="text-align:center;">
-                    <div class="hide-on-large-only" style="padding-top: 15px !important; margin-top: 15px !important;"></div>
-                    <h6 class="miupblue bold">Localização</h6>
-
-                    <p class="miupblue"> Departamento de Informática - Universidade do Minho<br>Rua da Universidade, 4704-553 Braga</p>
-
-                    
-                </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-                Made  by  <a class="blue-text" href="https://www.facebook.com/necc.di.uminho"><img style="height: 15px" src="images/necc.png"> Necc</a>
-                <span style="font-size: 10px;"><a class="right" href="http://materializecss.com/" target="_blank">Materialize</a></span>
-            </div>
-        </div>
-        </div>
+			<div class="footer-copyright">
+				<div class="container">
+					Made  by  <a class="blue-text" href="https://www.facebook.com/necc.di.uminho"><img style="height: 15px" src="images/necc.png"> Necc</a>
+					<span style="font-size: 10px;"><a class="right" href="http://materializecss.com/" target="_blank">Materialize</a></span>
+				</div>
+			</div>
+		</footer>
 
     </body>
   </html>
