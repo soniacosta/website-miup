@@ -102,7 +102,12 @@
 					<p>Apenas a violação do regulamento ou desqualificações por má conduta podem ser sujeitas a apelo. As decisões do júri de aceitar ou rejeitar submissões são finais e não podem ser objeto de reclamação ou apelo.</p>
 					<p>Os apelos apenas podem ser apresentados pelo treinadores das equipas.</p>
 		</div>
-   	
+   	<div id="js-heightControl" style="height: 0;">&nbsp;</div>
+		<script>
+				$(function(){
+						$('#js-heightControl').css('height', $(window).height() - $('html').height() +'px');
+				});
+		</script>
 		<footer class="page-footer grey">
 			<div class="container">
 				<div class="row">
