@@ -50,6 +50,7 @@ img {
 }
 
 .page-footer{
+	position: relative;
 	padding-bottom: 0px !important;
 	font-size: 14px !important;
 }

@@ -45,8 +45,8 @@ google.maps.event.addDomListener(window, "load", function () {
   var marker0 = createMarker({
     position: new google.maps.LatLng(41.561043, -8.395860),
     map: map,
-    icon: "https://swerc.eu/theme/images/favicon.png"
-  }, "<h1>Marker 0</h1><p>This is the home marker.</p>");
+    icon: "https://image.ibb.co/bT85xv/LU782.png"
+  }, "");
 
   
 });
