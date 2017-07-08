@@ -45,7 +45,7 @@ google.maps.event.addDomListener(window, "load", function () {
   var marker0 = createMarker({
     position: new google.maps.LatLng(41.561043, -8.395860),
     map: map,
-    icon: "https://image.ibb.co/bT85xv/LU782.png"
+    icon: "https://mt.googleapis.com/vt/icon/name=icons/onion/22-blue-dot.png"
   }, "");
 
   
