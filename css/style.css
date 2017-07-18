@@ -10,7 +10,7 @@
 	color: #F5F5F5;
 }
 
-.ourwhite{
+.ourwhite-bg{
   background-color: #F5F5F5 !important;
 }
 a, a:link, a:visited, a:active {
@@ -34,6 +34,7 @@ p {
 		text-align: justify;
 		font-size: 16px;
 }
+li{font-size: 16px;}
 
 img {
     align-items: center;
